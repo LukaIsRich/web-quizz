@@ -75,6 +75,10 @@ body {
     display: none;
 }
 
+#questions {
+    display: none;
+}
+
 li.q-list {
     list-style: none;
     padding: 20px 20px 20px 10px;
@@ -90,6 +94,7 @@ li.q-list {
 
 li.q-list:hover {
     background-color: #222;
+    border: 1px #AAA solid;
 }
 
 ul.q-list {
