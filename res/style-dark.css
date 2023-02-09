@@ -32,9 +32,8 @@
 }
 
 div.center {
-    display: contents;
-    width: 91%;
-    padding: 15px;
+    display: grid;
+    justify-content: center;
 }
 
 body {
@@ -72,15 +71,19 @@ body {
 }
 
 #start-screen {
-    display: none;
+    /* display: none; */
 }
 
 #questions {
     display: none;
 }
 
+#rang {
+    /* display: none; */
+}
+
 li.q-list {
-    list-style: none;
+    list-style:decimal;
     padding: 20px 20px 20px 10px;
     border-radius: 10px;
     font-size: 21px;
@@ -99,4 +102,14 @@ li.q-list:hover {
 
 ul.q-list {
     padding-left: 0px;
+}
+
+li.settings {
+    list-style: none;
+    font-size: 16px;
+    padding: 5px 0px 5px 0px;
+}
+
+ul.settings {
+    padding-left: 20px;
 }
