@@ -21,7 +21,7 @@
                 <div>
                     <h3>Select topics</h3>
 
-                    <ul class="settings">
+                    <ul class="settings"> <!-- this needs to be generated dynamicaly using jquery -->
                         <li class="settings">
                             <input type="checkbox" id="ch0" name="0" value="1" checked>
                             <label for="vehicle1">Yleistieto</label>
@@ -45,7 +45,7 @@
                     </ul>
                 </div>
 
-                <div id="rang">
+                <div>
                     <h3>Number of questions limiter</h3>
 
                     <div style="margin-bottom: 20px; display: flex">
@@ -63,10 +63,10 @@
             </div>
         </div>
 
-        <div id="questions" class="comp">
+        <div id="questions" class="comp"> <!-- appears once game starts -->
             <h2 class="question" id="question-text">Cras eu tempus urna. Donec id nibh?</h2>
-            <form>
-                <ul class="q-list">
+            <form> <!-- this needs to be generated dynamicaly using jquery -->
+                <ul class="q-list"> 
                     <li class="q-list">
                         <input type="radio" id="html" name="fav_language" value="HTML" required>
                         <label for="html">Ut lacinia </label>

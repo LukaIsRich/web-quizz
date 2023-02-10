@@ -77,10 +77,6 @@ body {
     display: none;
 }
 
-#rang {
-    /* display: none; */
-}
-
 li.q-list {
     list-style:decimal;
     padding: 20px 20px 20px 10px;
