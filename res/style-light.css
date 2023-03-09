@@ -20,8 +20,8 @@
 
 :root {
     --main-bg-color: rgb(255, 255, 255);
-    --sec-color-550: hsl(281, 97%, 55%);
-    --sec-color-450: hsl(0, 100%, 50%);
+    --sec-color-550: #b51dfc;
+    --sec-color-450: #70159a;
     --element-font-color: rgb(255, 255, 255);
     --font-color: white;
 }
